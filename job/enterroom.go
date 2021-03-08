@@ -239,7 +239,8 @@ func EnterRoom(roomid int, btoml *other.Btoml, Status *other.Status, roomidbypri
 
 	//winGreenPrint(fmt.Sprintf("%v房间%v 发现 %v\n", other.TI(), roomid, txt))
 
-	fmt.Print("\033[32m", other.TI(), "房间", roomid, " 发现 ", txt, "\n\033[0m\r     \r")
+	//fmt.Print("\033[32m", other.TI(), "房间", roomid, " 发现 ", txt, "\n\033[0m\r     \r")
+	fmt.Print("\033[32m", other.TI(), "房间", roomid, " 发现 ", txt, "\n\033[0m")
 
 }
 
