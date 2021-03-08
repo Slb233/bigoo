@@ -22,7 +22,8 @@ func StrTime13() string {
 
 //TI return \r[2006-01-02 15:04:05]
 func TI() string {
-	return time.Now().In(time.FixedZone("CST", 28800)).Format("\r[01-02 15:04:05] ")
+	//return time.Now().In(time.FixedZone("CST", 28800)).Format("\r[01-02 15:04:05] ")
+	return time.Now().In(time.FixedZone("CST", 28800)).Format("[01-02 15:04:05] ")
 }
 
 //TodayDay return 0102
